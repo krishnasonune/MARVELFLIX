@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+  body::content {
+    content: '';
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5c235903-02cc-4228-85a2-5fcef1e47627/eb81131c-8403-427f-b1dc-6094c31b3a91/IN-en-20211227-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+  }
+
+.gh {
+    
+  color: white;
+}
+
+  .gh::content {
+      
+      background:rgba(0,0,0,0.59);
+      height: 100%;
+      width: 100%;
+  }
+
+
+.hb {
+  font-family: 'Sedgwick Ave', cursive;
+  margin: auto;
+  width: 50%;
+  padding-top: 230px;
+}
+
+
+
+
+

@@ -1,0 +1,18 @@
+<div class="topnav">
+  <h1 class="vb">MarvelFlix</h1>
+
+
+  <a routerLink="/view" class="nav-link" href="#">Movies </a>
+
+  <a routerLink="/series" class="nav-link" href="#"> Tv Series </a>
+
+  <a routerLink="/wlist" class="nav-link" href="#"> WatchList </a>
+  
+
+
+  <a style="float:right" (click)="logout()"> Logout </a>
+</div>
+<div *ngIf="load.isLoading | async">
+  <mat-progress-bar mode="indeterminate" color="warn" ></mat-progress-bar>
+  
+</div>

@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+  body::content {
+    content: '';
+    position: fixed;
+    
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-color:black;
+    font-family:'MS Reference Sans Serif';
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+div {
+  text-align: center;
+  margin-top: 150px;
+  
+  color:white;
+}
+
+
+img{
+  
+ 
+  margin:4px;
+  height:70px;
+  width:70px;
+}
+

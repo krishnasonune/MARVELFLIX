@@ -1,0 +1,75 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+  body::content {
+    content: '';
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-position: center;
+    background-image: url("https://www.viralbake.com/wp-content/uploads/2020/11/Netflix-ok.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+form {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 350px;
+  height: 450px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 80px 40px;
+  background: rgba(0,0,0,0.8)
+}
+
+h1 {
+  margin: 0;
+  margin-right: 63%;
+  padding: 0 0 20px;
+  color: white;
+  
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: white;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #808080;
+  background: transparent;
+  height: 35px;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  background-color: red;
+  font-size: 15px;
+  margin-top: 3%;
+}
+
+a {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}

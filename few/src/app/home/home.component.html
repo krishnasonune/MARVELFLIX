@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My test page</title>
+</head>
+<body>
+  <app-common-lay></app-common-lay>
+  <div>
+
+    <form #loginForm="ngForm" (ngSubmit)="submit(loginForm)">
+      <h1>Register</h1>
+      <!--name-->
+
+      <label>Name</label>
+
+
+      <input type="text" name="name" ngModel required>
+
+
+
+      <!--email-->
+
+      <label>Email Id</label>
+
+      <input type="email" name="email" ngModel pattern="(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" required>
+
+
+
+
+
+
+      <!--password-->
+
+      <label>Password</label>
+
+      <input type="password" name="password" ngModel required>
+
+
+
+
+
+
+
+
+
+      <button type="submit" [disabled]="!loginForm.form.valid">Register</button>
+
+      
+      
+    </form>
+  </div>
+  <div>
+    
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+

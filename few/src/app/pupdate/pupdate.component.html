@@ -1,0 +1,40 @@
+
+<div class="container" style="text-align:center">
+  <form #loginForm="ngForm" class="bg" (ngSubmit)="submit(loginForm)" style="background-color:beige;">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <h2>Login</h2>
+        <h6 style="text-align:right;color:dimgrey;font-size:small">All fields are mandatory</h6>
+        <div class="form-group">
+          <div class="col" style="text-align: center; font-size:30px">
+            <label>Email Id</label>
+          </div>
+          <div class="col; input-group">
+            <input type="email" name="email" ngModel class="form-control" required>
+          </div>
+        </div>
+        <br />
+       
+        <div class="form-group">
+          <div class="col" style="text-align: center; font-size: 30px">
+            <label>new Password</label>
+          </div>
+          <div class="col; input-group">
+            <input type="password" name="password2" ngModel class="form-control" required>
+          </div>
+        </div>
+        <br />
+        <div class="form-group"  style="text-align:center">
+          <button type="submit" style="padding: 12px 60px" class="btn" [disabled]="!loginForm.form.valid">Login</button>
+        </div>
+
+
+
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </form>
+</div>

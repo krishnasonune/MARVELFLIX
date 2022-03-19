@@ -1,0 +1,57 @@
+.topnav {
+  background: rgba(0,0,0,0.1);
+  overflow: hidden;
+  float:right;
+}
+
+.margin {
+  margin: 4px 4px 4px 4px;
+}
+
+.vb {
+  color: rgb(229, 9, 20);
+  font-weight: 900;
+  float: left;
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}

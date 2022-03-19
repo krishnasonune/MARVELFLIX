@@ -1,0 +1,15 @@
+<div>
+  <h1 class="vb">MarvelFlix</h1>
+  
+    <nav class="topnav">
+      <a routerLink="/home" href="#" >Home</a>
+      <a routerLink="/login" href="#" >Login</a>
+      <a routerLink="/register" href="#">Signup</a>
+      <a routerLink="/contact" href="#" >Contact</a>
+    </nav>
+  <div *ngIf="load.isLoading | async">
+    <mat-progress-bar mode="indeterminate" color="warn" ></mat-progress-bar>
+    
+  </div>
+</div>
+
