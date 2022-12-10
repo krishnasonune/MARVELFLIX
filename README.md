@@ -4,7 +4,7 @@ It is a Netflix Clone with only collection of marvel movies
 
 ## Screenshots
 
-<img src="few/src/assets/screenshot(234).png" height="450" width="300" hspace="20" /> <img src="app/src/main/res/drawable-v24/login.jpg" height="450" width="300" hspace="20" />
+<img src="src/assets/screenshot(234).png" height="450" width="300" hspace="20" /> <img src="app/src/main/res/drawable-v24/login.jpg" height="450" width="300" hspace="20" />
 
 ## Technologies Used
 
