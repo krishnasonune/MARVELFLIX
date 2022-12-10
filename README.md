@@ -4,7 +4,11 @@ It is a Netflix Clone with only collection of marvel movies
 
 ## Screenshots
 
-<img src="src/assets/screenshot(234).png" height="450" width="300" hspace="20" /> <img src="app/src/main/res/drawable-v24/login.jpg" height="450" width="300" hspace="20" />
+<img src="few/src/assets/Screenshot%20(234).png" height="450" width="800" hspace="20" /> 
+<img src="few/src/assets/Screenshot%20(235).png" height="450" width="800" hspace="20" />
+<img src="few/src/assets/Screenshot%20(238).png" height="450" width="800" hspace="20" />
+<img src="few/src/assets/Screenshot%20(239).png" height="450" width="800" hspace="20" />
+<img src="few/src/assets/Screenshot%20(240).png" height="450" width="800" hspace="20" />
 
 ## Technologies Used
 
@@ -20,8 +24,7 @@ created this project using Technologies: -
 
 - Light weight WebApp
 - Easy to use
-- Simple GUI
-- Responsive
+- Simple UI
 
 
 ## License
