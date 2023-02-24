@@ -8,14 +8,14 @@
       <tr>
         <th style="text-align:center">Contents</th>
         <th style="text-align: center">Watch</th>
-        <th style="text-align: center">remove</th>
+        <th style="text-align: center">Remove</th>
       </tr>
       <tr *ngFor=" let r of list">
         <td>{{r}}</td>
 
-        <td><button class="button">Watch Now</button></td>
+        <td><button class="button" (click)="watch(r)">Watch Now</button></td>
 
-        <td><button class="button">remove</button></td>
+        <td><button class="button" (click)="remove(r)">remove</button></td>
       </tr>
 
     </table>
