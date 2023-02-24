@@ -166,6 +166,25 @@ namespace services.Controllers
 
             return Json(result);
         }
+        
+        [HttpPost]
+        public JsonResult removewlist(Custom obj)
+        {
+
+            string result;
+            try
+            {
+                result = repo.removewlis(obj.Email, obj.Name);
+            }
+            catch (Exception ex)
+            {
+
+                result = ex.Message;
+            }
+
+
+            return Json(result);
+        }
 
     }
 }
