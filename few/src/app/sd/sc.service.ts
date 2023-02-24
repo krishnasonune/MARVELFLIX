@@ -66,6 +66,11 @@ export class ServiceService {
     userObj = { email: email };
     return this.http.post<any>('https://quickkartservice.azurewebsites.net/api/Values/getwlist', userObj).pipe(catchError(this.errorHandler));
   }
+  
+  removewlis(name: string, email : string): Observable<any> {
+    var userObj = { email: email, name : name};
+    return this.http.post<any>('https://localhost:5001/api/Values/removewlist', userObj).pipe(catchError(this.errorHandler));
+  }
 
   errorHandler(error: HttpErrorResponse) {
     console.error(error);
