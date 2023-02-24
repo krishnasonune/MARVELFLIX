@@ -251,6 +251,17 @@ namespace Entityframework
             return msg;
 
         }
+        
+        public string removewlis(string email, string name)
+        {
+            string d = string.Empty;
+            var s = (from e in context.Watchlist
+                     where e.Email == email && e.Name == name
+                     select e).SingleOrDefault();
+            context.Watchlist.Remove(s);
+            context.SaveChanges();
+            return "removed";
+        }
 
 
     }
